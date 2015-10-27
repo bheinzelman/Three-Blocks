@@ -1,0 +1,5 @@
+TO DO::
+
+1. make S.P.A single page app.
+2. make a little easier
+3. add app rate cocoa pod

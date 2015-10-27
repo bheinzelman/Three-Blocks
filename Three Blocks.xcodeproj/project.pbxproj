@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0FC8BD1B576033000380C6 /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0FC8BC1B576033000380C6 /* block.png */; };
+		BB0FC8C21B5ACFBA000380C6 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0FC8C11B5ACFBA000380C6 /* GameKit.framework */; };
+		BB0FC8C41B5C2BD9000380C6 /* hs.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0FC8C31B5C2BD9000380C6 /* hs.png */; };
+		BB19E5F01B40B27B004B9F75 /* Emblem.png in Resources */ = {isa = PBXBuildFile; fileRef = BB19E5EF1B40B27B004B9F75 /* Emblem.png */; };
+		BB19E5F21B40B3D9004B9F75 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = BB19E5F11B40B3D9004B9F75 /* Play.png */; };
+		BB19E5F41B40CD64004B9F75 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB19E5F31B40CD64004B9F75 /* Constants.m */; };
+		BB36FA2C1B54D5DC00D725D1 /* BasicPlatformDifficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = BB36FA2B1B54D5DC00D725D1 /* BasicPlatformDifficulty.m */; };
+		BB36FA2F1B5614B800D725D1 /* ARollScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BB36FA2E1B5614B800D725D1 /* ARollScene.m */; };
+		BB36FA311B56235900D725D1 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BB36FA301B56235900D725D1 /* back.png */; };
+		BB4CE0DF1B4F81B2001FCFAC /* playAgain.png in Resources */ = {isa = PBXBuildFile; fileRef = BB4CE0DE1B4F81B2001FCFAC /* playAgain.png */; };
+		BB4CE0E21B52FEA9001FCFAC /* SELRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4CE0E11B52FEA9001FCFAC /* SELRunLoop.m */; };
+		BB7B77A81B3F80EE00D9CE00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77A71B3F80EE00D9CE00 /* main.m */; };
+		BB7B77AB1B3F80EE00D9CE00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77AA1B3F80EE00D9CE00 /* AppDelegate.m */; };
+		BB7B77AE1B3F80EE00D9CE00 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77AD1B3F80EE00D9CE00 /* GameScene.m */; };
+		BB7B77B01B3F80EE00D9CE00 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB7B77AF1B3F80EE00D9CE00 /* GameScene.sks */; };
+		BB7B77B31B3F80EE00D9CE00 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77B21B3F80EE00D9CE00 /* GameViewController.m */; };
+		BB7B77B61B3F80EE00D9CE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7B77B41B3F80EE00D9CE00 /* Main.storyboard */; };
+		BB7B77B81B3F80EE00D9CE00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7B77B71B3F80EE00D9CE00 /* Images.xcassets */; };
+		BB7B77BB1B3F80EE00D9CE00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7B77B91B3F80EE00D9CE00 /* LaunchScreen.xib */; };
+		BB7B77C71B3F80EF00D9CE00 /* RollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77C61B3F80EF00D9CE00 /* RollTests.m */; };
+		BB7B77D21B3F841900D9CE00 /* SKPlatformNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77D11B3F841900D9CE00 /* SKPlatformNode.m */; };
+		BB7B77D81B3F9F3500D9CE00 /* SKBallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77D71B3F9F3500D9CE00 /* SKBallNode.m */; };
+		BB7B77DA1B3F9F3500D9CE00 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = BB7B77D91B3F9F3500D9CE00 /* ball.png */; };
+		BB7B77DF1B40AE3400D9CE00 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7B77DE1B40AE3400D9CE00 /* IntroScene.m */; };
+		BB7B77E11B40AF2500D9CE00 /* IntroScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB7B77E01B40AF2500D9CE00 /* IntroScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB7B77C11B3F80EF00D9CE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB7B779A1B3F80ED00D9CE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB7B77A11B3F80EE00D9CE00;
+			remoteInfo = Roll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0FC8BC1B576033000380C6 /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = block.png; path = images/block.png; sourceTree = "<group>"; };
+		BB0FC8C11B5ACFBA000380C6 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		BB0FC8C31B5C2BD9000380C6 /* hs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hs.png; path = images/hs.png; sourceTree = "<group>"; };
+		BB0FC8C51B5C2E0F000380C6 /* ARollSceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARollSceneDelegate.h; sourceTree = "<group>"; };
+		BB19E5EF1B40B27B004B9F75 /* Emblem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Emblem.png; path = images/Emblem.png; sourceTree = "<group>"; };
+		BB19E5F11B40B3D9004B9F75 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Play.png; path = images/Play.png; sourceTree = "<group>"; };
+		BB19E5F31B40CD64004B9F75 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BB36FA291B54D52D00D725D1 /* PPlatformDifficulty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPlatformDifficulty.h; sourceTree = "<group>"; };
+		BB36FA2A1B54D5DB00D725D1 /* BasicPlatformDifficulty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPlatformDifficulty.h; sourceTree = "<group>"; };
+		BB36FA2B1B54D5DC00D725D1 /* BasicPlatformDifficulty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPlatformDifficulty.m; sourceTree = "<group>"; };
+		BB36FA2D1B5614B800D725D1 /* ARollScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARollScene.h; sourceTree = "<group>"; };
+		BB36FA2E1B5614B800D725D1 /* ARollScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARollScene.m; sourceTree = "<group>"; };
+		BB36FA301B56235900D725D1 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = images/back.png; sourceTree = "<group>"; };
+		BB4CE0DE1B4F81B2001FCFAC /* playAgain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playAgain.png; path = images/playAgain.png; sourceTree = "<group>"; };
+		BB4CE0E01B52FEA9001FCFAC /* SELRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SELRunLoop.h; sourceTree = "<group>"; };
+		BB4CE0E11B52FEA9001FCFAC /* SELRunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SELRunLoop.m; sourceTree = "<group>"; };
+		BB7B77A21B3F80EE00D9CE00 /* Three Blocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Blocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7B77A61B3F80EE00D9CE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7B77A71B3F80EE00D9CE00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB7B77A91B3F80EE00D9CE00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB7B77AA1B3F80EE00D9CE00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB7B77AC1B3F80EE00D9CE00 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		BB7B77AD1B3F80EE00D9CE00 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		BB7B77AF1B3F80EE00D9CE00 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BB7B77B11B3F80EE00D9CE00 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BB7B77B21B3F80EE00D9CE00 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BB7B77B51B3F80EE00D9CE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB7B77B71B3F80EE00D9CE00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB7B77BA1B3F80EE00D9CE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BB7B77C01B3F80EF00D9CE00 /* Three BlocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three BlocksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7B77C51B3F80EF00D9CE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7B77C61B3F80EF00D9CE00 /* RollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RollTests.m; sourceTree = "<group>"; };
+		BB7B77D01B3F841900D9CE00 /* SKPlatformNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPlatformNode.h; sourceTree = "<group>"; };
+		BB7B77D11B3F841900D9CE00 /* SKPlatformNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPlatformNode.m; sourceTree = "<group>"; };
+		BB7B77D31B3F97DD00D9CE00 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BB7B77D61B3F9F3500D9CE00 /* SKBallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBallNode.h; sourceTree = "<group>"; };
+		BB7B77D71B3F9F3500D9CE00 /* SKBallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBallNode.m; sourceTree = "<group>"; };
+		BB7B77D91B3F9F3500D9CE00 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = images/ball.png; sourceTree = "<group>"; };
+		BB7B77DD1B40AE3400D9CE00 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		BB7B77DE1B40AE3400D9CE00 /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
+		BB7B77E01B40AF2500D9CE00 /* IntroScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IntroScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7B779F1B3F80EE00D9CE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0FC8C21B5ACFBA000380C6 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7B77BD1B3F80EF00D9CE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7B77991B3F80ED00D9CE00 = {
+			isa = PBXGroup;
+			children = (
+				BB0FC8C11B5ACFBA000380C6 /* GameKit.framework */,
+				BB7B77A41B3F80EE00D9CE00 /* Roll */,
+				BB7B77C31B3F80EF00D9CE00 /* RollTests */,
+				BB7B77A31B3F80EE00D9CE00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7B77A31B3F80EE00D9CE00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B77A21B3F80EE00D9CE00 /* Three Blocks.app */,
+				BB7B77C01B3F80EF00D9CE00 /* Three BlocksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7B77A41B3F80EE00D9CE00 /* Roll */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B77D61B3F9F3500D9CE00 /* SKBallNode.h */,
+				BB7B77D71B3F9F3500D9CE00 /* SKBallNode.m */,
+				BB7B77D31B3F97DD00D9CE00 /* Constants.h */,
+				BB19E5F31B40CD64004B9F75 /* Constants.m */,
+				BB7B77AC1B3F80EE00D9CE00 /* GameScene.h */,
+				BB7B77AD1B3F80EE00D9CE00 /* GameScene.m */,
+				BB36FA2D1B5614B800D725D1 /* ARollScene.h */,
+				BB36FA2E1B5614B800D725D1 /* ARollScene.m */,
+				BB7B77D01B3F841900D9CE00 /* SKPlatformNode.h */,
+				BB7B77D11B3F841900D9CE00 /* SKPlatformNode.m */,
+				BB7B77DD1B40AE3400D9CE00 /* IntroScene.h */,
+				BB7B77DE1B40AE3400D9CE00 /* IntroScene.m */,
+				BB7B77D41B3F9E4F00D9CE00 /* boiler plate code */,
+				BB7B77A51B3F80EE00D9CE00 /* Supporting Files */,
+				BB4CE0E01B52FEA9001FCFAC /* SELRunLoop.h */,
+				BB4CE0E11B52FEA9001FCFAC /* SELRunLoop.m */,
+				BB36FA291B54D52D00D725D1 /* PPlatformDifficulty.h */,
+				BB36FA2A1B54D5DB00D725D1 /* BasicPlatformDifficulty.h */,
+				BB36FA2B1B54D5DC00D725D1 /* BasicPlatformDifficulty.m */,
+				BB0FC8C51B5C2E0F000380C6 /* ARollSceneDelegate.h */,
+			);
+			path = Roll;
+			sourceTree = "<group>";
+		};
+		BB7B77A51B3F80EE00D9CE00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B77D51B3F9E8900D9CE00 /* resources */,
+				BB7B77A61B3F80EE00D9CE00 /* Info.plist */,
+				BB7B77A71B3F80EE00D9CE00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB7B77C31B3F80EF00D9CE00 /* RollTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B77C61B3F80EF00D9CE00 /* RollTests.m */,
+				BB7B77C41B3F80EF00D9CE00 /* Supporting Files */,
+			);
+			path = RollTests;
+			sourceTree = "<group>";
+		};
+		BB7B77C41B3F80EF00D9CE00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B77C51B3F80EF00D9CE00 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB7B77D41B3F9E4F00D9CE00 /* boiler plate code */ = {
+			isa = PBXGroup;
+			children = (
+				BB7B77A91B3F80EE00D9CE00 /* AppDelegate.h */,
+				BB7B77B11B3F80EE00D9CE00 /* GameViewController.h */,
+				BB7B77B21B3F80EE00D9CE00 /* GameViewController.m */,
+				BB7B77E01B40AF2500D9CE00 /* IntroScene.sks */,
+				BB7B77AF1B3F80EE00D9CE00 /* GameScene.sks */,
+				BB7B77AA1B3F80EE00D9CE00 /* AppDelegate.m */,
+			);
+			name = "boiler plate code";
+			sourceTree = "<group>";
+		};
+		BB7B77D51B3F9E8900D9CE00 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB0FC8C31B5C2BD9000380C6 /* hs.png */,
+				BB0FC8BC1B576033000380C6 /* block.png */,
+				BB36FA301B56235900D725D1 /* back.png */,
+				BB4CE0DE1B4F81B2001FCFAC /* playAgain.png */,
+				BB19E5F11B40B3D9004B9F75 /* Play.png */,
+				BB19E5EF1B40B27B004B9F75 /* Emblem.png */,
+				BB7B77D91B3F9F3500D9CE00 /* ball.png */,
+				BB7B77B41B3F80EE00D9CE00 /* Main.storyboard */,
+				BB7B77B71B3F80EE00D9CE00 /* Images.xcassets */,
+				BB7B77B91B3F80EE00D9CE00 /* LaunchScreen.xib */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7B77A11B3F80EE00D9CE00 /* Three Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7B77CA1B3F80EF00D9CE00 /* Build configuration list for PBXNativeTarget "Three Blocks" */;
+			buildPhases = (
+				BB7B779E1B3F80EE00D9CE00 /* Sources */,
+				BB7B779F1B3F80EE00D9CE00 /* Frameworks */,
+				BB7B77A01B3F80EE00D9CE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Blocks";
+			productName = Roll;
+			productReference = BB7B77A21B3F80EE00D9CE00 /* Three Blocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB7B77BF1B3F80EF00D9CE00 /* Three BlocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7B77CD1B3F80EF00D9CE00 /* Build configuration list for PBXNativeTarget "Three BlocksTests" */;
+			buildPhases = (
+				BB7B77BC1B3F80EF00D9CE00 /* Sources */,
+				BB7B77BD1B3F80EF00D9CE00 /* Frameworks */,
+				BB7B77BE1B3F80EF00D9CE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB7B77C21B3F80EF00D9CE00 /* PBXTargetDependency */,
+			);
+			name = "Three BlocksTests";
+			productName = RollTests;
+			productReference = BB7B77C01B3F80EF00D9CE00 /* Three BlocksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7B779A1B3F80ED00D9CE00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = heinzelmanb;
+				TargetAttributes = {
+					BB7B77A11B3F80EE00D9CE00 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = UVPQMF29R8;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					BB7B77BF1B3F80EF00D9CE00 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BB7B77A11B3F80EE00D9CE00;
+					};
+				};
+			};
+			buildConfigurationList = BB7B779D1B3F80ED00D9CE00 /* Build configuration list for PBXProject "Three Blocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7B77991B3F80ED00D9CE00;
+			productRefGroup = BB7B77A31B3F80EE00D9CE00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7B77A11B3F80EE00D9CE00 /* Three Blocks */,
+				BB7B77BF1B3F80EF00D9CE00 /* Three BlocksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7B77A01B3F80EE00D9CE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB19E5F01B40B27B004B9F75 /* Emblem.png in Resources */,
+				BB19E5F21B40B3D9004B9F75 /* Play.png in Resources */,
+				BB0FC8BD1B576033000380C6 /* block.png in Resources */,
+				BB7B77BB1B3F80EE00D9CE00 /* LaunchScreen.xib in Resources */,
+				BB7B77DA1B3F9F3500D9CE00 /* ball.png in Resources */,
+				BB7B77B81B3F80EE00D9CE00 /* Images.xcassets in Resources */,
+				BB7B77E11B40AF2500D9CE00 /* IntroScene.sks in Resources */,
+				BB36FA311B56235900D725D1 /* back.png in Resources */,
+				BB0FC8C41B5C2BD9000380C6 /* hs.png in Resources */,
+				BB7B77B01B3F80EE00D9CE00 /* GameScene.sks in Resources */,
+				BB7B77B61B3F80EE00D9CE00 /* Main.storyboard in Resources */,
+				BB4CE0DF1B4F81B2001FCFAC /* playAgain.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7B77BE1B3F80EF00D9CE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7B779E1B3F80EE00D9CE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7B77B31B3F80EE00D9CE00 /* GameViewController.m in Sources */,
+				BB7B77DF1B40AE3400D9CE00 /* IntroScene.m in Sources */,
+				BB7B77AB1B3F80EE00D9CE00 /* AppDelegate.m in Sources */,
+				BB19E5F41B40CD64004B9F75 /* Constants.m in Sources */,
+				BB36FA2C1B54D5DC00D725D1 /* BasicPlatformDifficulty.m in Sources */,
+				BB7B77D81B3F9F3500D9CE00 /* SKBallNode.m in Sources */,
+				BB36FA2F1B5614B800D725D1 /* ARollScene.m in Sources */,
+				BB7B77AE1B3F80EE00D9CE00 /* GameScene.m in Sources */,
+				BB4CE0E21B52FEA9001FCFAC /* SELRunLoop.m in Sources */,
+				BB7B77A81B3F80EE00D9CE00 /* main.m in Sources */,
+				BB7B77D21B3F841900D9CE00 /* SKPlatformNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7B77BC1B3F80EF00D9CE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7B77C71B3F80EF00D9CE00 /* RollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB7B77C21B3F80EF00D9CE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB7B77A11B3F80EE00D9CE00 /* Three Blocks */;
+			targetProxy = BB7B77C11B3F80EF00D9CE00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB7B77B41B3F80EE00D9CE00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7B77B51B3F80EE00D9CE00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB7B77B91B3F80EE00D9CE00 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7B77BA1B3F80EE00D9CE00 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7B77C81B3F80EF00D9CE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB7B77C91B3F80EF00D9CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB7B77CB1B3F80EF00D9CE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Roll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Three Blocks";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BB7B77CC1B3F80EF00D9CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Roll/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Three Blocks";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BB7B77CE1B3F80EF00D9CE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Three BlocksTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll.app/Roll";
+			};
+			name = Debug;
+		};
+		BB7B77CF1B3F80EF00D9CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Three BlocksTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roll.app/Roll";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7B779D1B3F80ED00D9CE00 /* Build configuration list for PBXProject "Three Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7B77C81B3F80EF00D9CE00 /* Debug */,
+				BB7B77C91B3F80EF00D9CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7B77CA1B3F80EF00D9CE00 /* Build configuration list for PBXNativeTarget "Three Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7B77CB1B3F80EF00D9CE00 /* Debug */,
+				BB7B77CC1B3F80EF00D9CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7B77CD1B3F80EF00D9CE00 /* Build configuration list for PBXNativeTarget "Three BlocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7B77CE1B3F80EF00D9CE00 /* Debug */,
+				BB7B77CF1B3F80EF00D9CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB7B779A1B3F80ED00D9CE00 /* Project object */;
+}
